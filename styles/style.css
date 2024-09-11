@@ -6,10 +6,18 @@ body {
 
 h1 {
   font-size: 38px;
+  text-align: center;
+}
+
+.recipes li {
+  list-style: square;
+  display: inline;
+  margin-left: 15px;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {

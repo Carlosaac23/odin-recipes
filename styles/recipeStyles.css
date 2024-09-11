@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background-color: #d3d3d3;
+  color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ededed;
+  border: 2px solid #0d0d0d;
+  border-radius: 10px;
+  width: 600px;
+  margin: 40px 0;
+  padding: 30px;
+  box-shadow: 5px 5px 0 #000;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.backBtn img {
+  margin-right: 8px;
+}
+
+.backBtn:active {
+  transform: translateY(3px);
+  box-shadow: 3px 0 0 #000;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.downloadBtn img {
+  margin-right: 8px;
+}
+
+.downloadBtn:active {
+  transform: translateY(3px);
+  box-shadow: 3px 0 0 #000;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
+.ingredients {
+  list-style: square;
+}
+
+.ingredients li {
+  margin-bottom: 5px;
+}
+
+.steps li {
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
