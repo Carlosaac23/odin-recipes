@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
@@ -13,7 +17,7 @@ body {
   border: 2px solid #0a0a0a;
   border-radius: 10px;
   width: 600px;
-  margin: 40px 0;
+  margin: 40px 20px;
   padding: 30px;
   box-shadow: 5px 5px 0 #000;
 }
@@ -69,13 +73,17 @@ h1 {
   font-size: 38px;
 }
 
+.card__img {
+  background-color: #000;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #000;
+}
+
 h2,
 h3 {
   font-weight: 600;
-}
-
-.ingredients {
-  list-style: square;
 }
 
 .ingredients li {
@@ -84,9 +92,4 @@ h3 {
 
 .steps li {
   margin-bottom: 15px;
-}
-
-img {
-  border-radius: 10px;
-  width: 100%;
 }
